@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="icon" href="Nueva carpeta/logo sofware 1.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header {
+            text-align: center;
+            padding: 40px;
+            background-color: #0a2038;
+            color: rgb(255, 255, 255);
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .project {
+            margin: 30px 0;
+            background-color: white;
+            border: 1px solid #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            margin-top: 30px;
+            color: #007bff;
+        }
+        .about-title {
+            color: rgb(255, 255, 255); 
+            font-weight: bold;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+            margin: 0 10px; 
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        .social-icon {
+            font-size: 4rem; 
+            transition: transform 0.3s, color 0.3s;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+            color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 15px 0;
+        }
+        .text-center-custom {
+            text-align: center;
+        }
+        .project img {
+            width: 100%; 
+            height: auto; 
+            max-width: 530px; 
+            object-fit: cover; 
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        video {
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        .certificado-img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .certificado-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            cursor: pointer; /* Cambiar cursor para indicar que se puede hacer clic */
+        }
+        /* Nueva regla para justificar textos */
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="header"> 
+        <h1>Mi Portafolio Profesional</h1> 
+        <img src="Nueva carpeta/12.jpeg" alt="Foto Profesional" class="img-fluid rounded-circle" width="200">
+        <h2 class="about-title">Acerca de mí</h2>
+        <p class="text-center-custom justificado">Hola, soy Cristofer César Rosales García, un apasionado desarrollador 
+            de software con una sólida base en lenguajes como HTML, CSS, JavaScript y SQL. 
+            Me destaco por mi capacidad para aprender rápidamente y adaptarme a nuevas tecnologías.
+            Tengo experiencia en el uso de frameworks como Bootstrap y en herramientas de control
+            de versiones como Git, lo que me permite colaborar eficazmente en proyectos de equipo.
+        </p>
+    </header>
+
+    <section class="container">
+        <h2>Datos Personales</h2>
+        <ul class="list-unstyled">
+            <li><strong>Nombre Completo:</strong> Cristofer César Rosales García</li>
+            <li><strong>Dirección:</strong> San Francisco Chinameca, Canton San Jose De la Montaña</li>
+            <li><strong>Teléfono:</strong> +503 7867 1576</li>
+            <li><strong>Email:</strong> cristofercesarrosalesgarcia@gmail.com</li>
+            <li><strong>Fecha de Nacimiento:</strong> 26/12/2006</li>
+            <li><strong>Nacionalidad:</strong> El Salvador, San Salvador</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Formación Académica</h3>
+                <ul class="justificado">
+                    <li>Nivel Academico: Basico</li>
+                    <li>Institución: Centro Escolar Canton San Jose De La Montaña</li>
+                    <li>Periodo: 2010-2021</li>
+                </ul>
+                <ul class="justificado">
+                    <li>Nivel Academico: Bachillerato</li>
+                    <li>Institución: Instituto Nacional De San Miguel Tepezontes</li>
+                    <li>Periodo: 2021-2024</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Formación Complementaria</h3>
+                <ul class="justificado">
+                    <li>Estudiante de Educación Media</li>
+                    <li>Certificado en páginas web</li>
+                    <li>Certificado como Administrador de base de datos</li>
+                    <li>Certificado en Impresión 3D</li>
+                    <li>Proyectos Voluntarios: Experiencia en proyectos o trabajos comunitarios
+                     que te han permitido aplicar y mejorar mis habilidades.</li>
+                    <li>Soft Skills: Formación en habilidades blandas como liderazgo, 
+                        trabajo en equipo, comunicación, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="justificado">
+                    <li>Lenguajes: HTML, CSS, JavaScript, SQL, PHP, .NET, PYTHON</li>
+                    <li>Microsoft Office a nivel usuario avanzado. </li>
+                    <li>Programas específicos: InDesign nivel avanzado, AutoCad nivel medio, Git nivel avanzado, Photoshop nivel básico...</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Experiencia Laboral</h3>
+                <p class="justificado">Experiencias en diferentes trabajos pequeños, 
+                    como atender a clientes en una farmacia, lavados de carros,
+                     lo cual ha sido un apoyo para formarme como persona y poder desempeñarme en mis estudios.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h3>Referencias Personales</h3>
+        <p class="justificado">Disponibilidad inmediata con muchas ganas de superación y progreso,
+             honrado, de carácter amigable, dinámico y sociable con mucha experiencia 
+             en el trabajo con jóvenes, tanto en el sector educativo como en el trabajo pastoral.</p>
+    </section>
+
+    <section class="container">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1: 3DimensionalFactory</h3>
+            <p class="justificado"><strong>Descripción:</strong> Este proyecto se sitúa en el cruce entre el comercio electrónico y la
+                 manufactura digital, destacando la impresión 3D como una herramienta clave para la creación 
+                 de productos personalizados. Mis compañeros y yo nos dedicamos a la creación de diseños para 
+                 imprimir en 3D, superando diversas dificultades y logrando presentar un proyecto exitoso.</p>
+            <p class="justificado"><strong>Dificultades:</strong> A lo largo del proyecto presenté muchas dificultades, como la 
+                rotura de una impresora y la falta de recursos como filamento.</p>
+            <img src="Nueva carpeta/Repa.jpg" alt="Descripción de Proyecto 1" class="img-fluid" />
+            <img src="Nueva carpeta/impre.jpg" alt="Descripción de Proyecto 1" class="img-fluid" />
+            <p><a href="https://www.youtube.com/watch?v=YTXqRciywTU" target="_blank" class="btn btn-primary">Video explicativo</a>
+                <a href="https://github.com/cristofer0dj/3DimensionalFactory" target="_blank" class="btn btn-primary">Repositorio en GitHub</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Proyecto 2: Apertura y cierre de puerta por temperatura corporal.</h3>
+            <p class="justificado"><strong>Descripción:</strong> Este proyecto implementa un sistema de apertura y cierre de puertas 
+                basado en la lectura de temperatura corporal.</p>
+            <p class="justificado"><strong>Dificultades:</strong> Se presentaron diversos retos técnicos, que pusieron a prueba nuestras 
+                habilidades de resolución de problemas.</p>
+            <img src="Nueva carpeta/glo.jpg" alt="Descripción de Proyecto 2" class="img-fluid" />
+            <img src="Nueva carpeta/rese.jpg" alt="Descripción de Proyecto 2" class="img-fluid" />
+            <p><a href="https://www.youtube.com/watch?v=6fXVVsy5uaU" target="_blank" class="btn btn-primary">Video explicativo</a>
+                <a href="https://github.com/cristofer0dj/ApertApertura-de-Puerta-por-Temperatura" target="_blank" class="btn btn-primary">Repositorio en GitHub</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Proyecto 3: Cerradura Inteligente</h3>
+            <p class="justificado"><strong>Descripción:</strong> Este proyecto consiste en implementar un sistema de cerradura electrónica 
+                con tecnología RFID, mejorando la seguridad en entornos educativos.</p>
+            <p class="justificado"><strong>Dificultades:</strong> Enfrentamos problemas de conectividad en el circuito, lo que complicó 
+                el avance del proyecto.</p>
+            <img src="Nueva carpeta/cerr.jpg" alt="Descripción de Proyecto 3" class="img-fluid" />
+            <img src="Nueva carpeta/nop.jpg" alt="Descripción de Proyecto 3" class="img-fluid" />
+            <p><a href="https://www.youtube.com/watch?v=Ul53yPdGOw8" target="_blank" class="btn btn-primary">Video explicativo</a>
+                <a href="https://github.com/cristofer0dj/cerradura-inteligente" target="_blank" class="btn btn-primary">Repositorio en GitHub</a></p>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2>Certificados</h2>
+        <div id="certificadosSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 1</h3>
+                            <img src="certificados/1.jpg" alt="Certificado 1" class="certificado-img">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 2</h3>
+                            <img src="certificados/5.jpg" alt="Certificado 2" class="certificado-img">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 3</h3>
+                            <img src="certificados/3.jpg" alt="Certificado 3" class="certificado-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 4</h3>
+                            <img src="certificados/4.jpg" alt="Certificado 4" class="certificado-img">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 5</h3>
+                            <img src="certificados/2.jpg" alt="Certificado 5" class="certificado-img">
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Certificado 6</h3>
+                            <img src="certificados/6.jpg" alt="Certificado 6" class="certificado-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#certificadosSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#certificadosSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    
+        <div class="text-center mt-3">
+            <a href="2.html" class="btn btn-primary">Ver todos mis certificados</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Contacto</h2>
+        <p class="justificado">Puedes conectarme a través de mis redes sociales:</p>
+        <p>
+            <a href="https://www.facebook.com/profile.php?id=61556965206176" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/cristofer0dj" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/cristofercesarrosalesgarcia/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </p>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Cristofer César Rosales García. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="certificadoModal" tabindex="-1" role="dialog" aria-labelledby="certificadoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="certificadoModalLabel">Certificado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" alt="Certificado" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function setModalImage(src) {
+            document.getElementById('modalImage').src = src;
+        }
+    </script>
+</body>
+</html>
